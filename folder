@@ -1,0 +1,89 @@
+portfolio-website/
+│
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── src/
+│   │
+│   ├── components/              # Reusable UI Components
+│   │   ├── Header/
+│   │   │   ├── Header.jsx
+│   │   │   └── Header.css
+│   │   │
+│   │   ├── Hero/
+│   │   │   ├── Hero.jsx
+│   │   │   └── Hero.css
+│   │   │
+│   │   ├── About/
+│   │   │   ├── About.jsx
+│   │   │   └── About.css
+│   │   │
+│   │   ├── Skills/
+│   │   │   ├── Skills.jsx
+│   │   │   └── Skills.css
+│   │   │
+│   │   ├── Projects/
+│   │   │   ├── Projects.jsx
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── ProjectModal.jsx
+│   │   │   └── Projects.css
+│   │   │
+│   │   ├── Contact/
+│   │   │   ├── Contact.jsx
+│   │   │   └── Contact.css
+│   │   │
+│   │   ├── Footer/
+│   │   │   ├── Footer.jsx
+│   │   │   └── Footer.css
+│   │   │
+│   │   ├── ThemeToggle/
+│   │   │   ├── ThemeToggle.jsx
+│   │   │   └── ThemeToggle.css
+│   │   │
+│   │   └── Particles/
+│   │       ├── ParticleBackground.jsx
+│   │       └── ParticleBackground.css
+│   │
+│   ├── pages/                   # Page Components (React Router)
+│   │   ├── Home.jsx
+│   │   ├── ProjectsPage.jsx
+│   │   └── ContactPage.jsx
+│   │
+│   ├── context/                 # React Context (Theme, etc.)
+│   │   └── ThemeContext.jsx
+│   │
+│   ├── hooks/                   # Custom React Hooks
+│   │   ├── useScrollAnimation.js
+│   │   ├── useIntersectionObserver.js
+│   │   └── useTheme.js
+│   │
+│   ├── utils/                   # Utility Functions
+│   │   ├── animations.js
+│   │   └── validation.js
+│   │
+│   ├── data/                    # Static Data
+│   │   ├── projects.js
+│   │   ├── skills.js
+│   │   └── personalInfo.js
+│   │
+│   ├── assets/                  # Images, Icons, etc.
+│   │   ├── images/
+│   │   │   └── (project images, profile pic)
+│   │   └── icons/
+│   │       └── (social media icons, skill icons)
+│   │
+│   ├── styles/                  # Global Styles
+│   │   ├── index.css
+│   │   ├── themes.css
+│   │   ├── animations.css
+│   │   └── variables.css
+│   │
+│   ├── App.jsx                  # Main App Component
+│   ├── App.css                  # App Styles
+│   └── index.js                 # Entry Point
+│
+├── package.json                 # Dependencies
+├── package-lock.json
+└── README.md
