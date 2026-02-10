@@ -1,12 +1,21 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce website with shopping cart, payment integration, and admin dashboard.",
-    longDescription: "Built a complete e-commerce solution with user authentication, product management, shopping cart functionality, payment gateway integration using Stripe, and an admin panel for inventory management. Implemented responsive design for seamless mobile experience.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
+    title: "VitaGuide",
+    // description: "A full-stack e-commerce website with shopping cart, payment integration, and admin dashboard.",
+    description: "An end-to-end medical app to find available doctors, book appointments, and manage healthcare services efficiently.",
+    // longDescription: "Built a complete e-commerce solution with user authentication, product management, shopping cart functionality, payment gateway integration using Stripe, and an admin panel for inventory management. Implemented responsive design for seamless mobile experience.",
+   longDescription: "Built a complete healthcare platform with secure user login, doctor availability updates, appointment scheduling, chat functionality, and admin controls for managing doctors and bookings. Designed with responsiveness for optimal use on both desktop and mobile.",
+
+    // image: "https://images.unsplash.com/photo-1584515933487-779824d29309?w=1200&h=800&fit=crop",
+   image:"https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&h=900&fit=crop",
+   
+
+
+
+
     technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    liveLink: "https://example.com",
+    liveLink: "https://vitaguide.netlify.app/",
     githubLink: "https://github.com/yourusername/ecommerce",
     category: "Full Stack",
     featured: true
